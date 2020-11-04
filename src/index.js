@@ -24,16 +24,25 @@ class Board extends React.Component {
     return (
       <div>
         <div className="board-row">
+          <div></div>
+          <div>A</div>
+          <div>B</div>
+          <div>C</div>
+        </div>
+        <div className="board-row">
+          <div>1</div>
           {this.renderSquare(0)}
           {this.renderSquare(1)}
           {this.renderSquare(2)}
         </div>
         <div className="board-row">
+          <div>2</div>
           {this.renderSquare(3)}
           {this.renderSquare(4)}
           {this.renderSquare(5)}
         </div>
         <div className="board-row">
+          <div>3</div>
           {this.renderSquare(6)}
           {this.renderSquare(7)}
           {this.renderSquare(8)}
